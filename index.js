@@ -36,6 +36,7 @@ async function generatePdf(file, options, callback) {
       waitUntil:[ 'load', 'networkidle0'], // wait for page to load completely
     });
   }
+  await page.emulateMediaType('screen');
 
   return Promise.props(page.pdf(options))
     .then(async function(data) {
@@ -92,3 +93,5 @@ async function generatePdfs(files, options, callback) {
 
 module.exports.generatePdf = generatePdf;
 module.exports.generatePdfs = generatePdfs;
+
+generatePdf({ url: process.argv[2] }, { path: process.argv[3] })
