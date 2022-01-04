@@ -1,5 +1,5 @@
 {
-  "name": "html-pdf-node",
+  "name": "bees-html-pdf",
   "version": "1.0.7",
   "description": "Convert any html content or html page to PDF",
   "main": "index.js",
@@ -31,10 +31,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrafiqk/html-pdf-node.git"
+    "url": "git+https://github.com/OliverLiangx/html-pdf-node.git"
   },
   "bugs": {
     "url": "https://github.com/mrafiqk/html-pdf-node/issues"
   },
-  "homepage": "https://github.com/mrafiqk/html-pdf-node#readme"
+  "homepage": "https://github.com/OliverLiangx/html-pdf-node/blob/master/README.md"
 }
