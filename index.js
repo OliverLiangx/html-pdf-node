@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const puppeteer = require('puppeteer');
 var Promise = require('bluebird');
 const hb = require('handlebars')
