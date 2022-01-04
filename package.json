@@ -3,6 +3,7 @@
   "version": "1.0.7",
   "description": "Convert any html content or html page to PDF",
   "main": "index.js",
+  "bin": "index.js",
   "directories": {
     "test": "tests"
   },
