@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --max-old-space-size=4096
 const puppeteer = require('puppeteer');
 var Promise = require('bluebird');
 const hb = require('handlebars')
